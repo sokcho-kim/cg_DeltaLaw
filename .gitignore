@@ -1,0 +1,55 @@
+# ▶ Python 기본
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# ▶ 환경 설정
+.env
+*.env
+venv/
+.venv/
+.envrc
+
+# ▶ 패키지 관리자
+pip-log.txt
+poetry.lock
+Pipfile.lock
+
+# ▶ Jupyter 노트북
+.ipynb_checkpoints/
+
+# ▶ 운영체제 잡파일
+.DS_Store
+Thumbs.db
+
+# ▶ VSCode & Cursor
+.vscode/
+.cursor/
+
+# ▶ PyCharm
+.idea/
+
+# ▶ PDF, 로그, 임시파일
+*.pdf
+*.log
+*.tmp
+
+# ▶ 결과물
+*.csv
+*.json
+output/
+results/
+exports/
+
+# ▶ 캐시 & 모델
+cache/
+*.pt
+*.npy
+*.npz
+
+# ▶ 실험용 파일/디렉토리
+test_*/
+draft_*/
+playground/
